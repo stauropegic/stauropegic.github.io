@@ -2,7 +2,9 @@ const banner = `
   888      ,8b.     PPPPP88p'888   88   <3
   888      88'8o        ,dP' 888ooo88     
   888      88PPY8.    ,dP'         88     
-  888PPPPP 8b   \`Y' YPPPPPPP PPPPPP8P     
+  888PPPPP 8b   \`Y' YPPPPPPP PPPPPP8P  
+  
+  A Nameless collective larpy larp -fanta
     `;
     console.log(banner);
 const pfpButton = document.getElementById("pfpButton");
