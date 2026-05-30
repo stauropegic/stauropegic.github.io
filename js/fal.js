@@ -7,9 +7,49 @@ const banner = `
     console.log(banner);
 const songs = [
     {
-        name: "Songname ~ Author",
-        file: "../audios/fal/pathtosong.mp3"
-    }
+        name: "rock your socks out ~ yora demise",
+        file: "audios/fal/rockursocks.mp3"
+    },
+    {
+        name: "Coke / Blow ~ idkwhyy",
+        file: "audios/fal/coke.mp3"
+    },
+    {
+        name: "Apologies ~ Snow Melts In April",
+        file: "audios/fal/apologies.mp3"
+    },
+    {
+        name: "unhappy ~ s0rrow",
+        file: "audios/fal/unhappy.mp3"
+    },
+    {
+        name: "oui ~ bunii",
+        file: "audios/fal/oui.mp3"
+    },
+    {
+        name: "tape mouth ~ i love snow days",
+        file: "audios/fal/tape mouth.mp3"
+    },
+    {
+        name: "leave it outside the door ~ Piggybank112",
+        file: "audios/fal/leaveit.mp3"
+    },
+    {
+        name: "think ~ plaxz, kelestiial",
+        file: "audios/fal/think.mp3"
+    },
+    {
+        name: "sisyphus ~ tyson",
+        file: "audios/fal/sisyphus.mp3"
+    },
+    {
+        name: "heartfelt ~ fest",
+        file: "audios/fal/heartfelt.mp3"
+    },
+    {
+        name: "afterparty ~ fest",
+        file: "audios/fal/afterparty.mp3"
+    },
 ];
 
 let currentSong = 0;
@@ -96,7 +136,6 @@ audio.onended = () => {
     nextBtn.click();
 };
 const pfpButton = document.getElementById("pfpButton");
-const skid = document.getElementById("skids")
 const aboutPage = document.getElementById("aboutPage");
 const friendsPage = document.getElementById("friendsPage");
 

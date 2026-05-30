@@ -45,7 +45,7 @@ a:hover {
     position: fixed;
     bottom: 20px;
     left: 20px;
-     background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0);
     border: 1px solid #ffffff22;
     padding: 10px 14px;
     border-radius: 12px;

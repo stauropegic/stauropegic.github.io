@@ -3,8 +3,6 @@ const banner = `
   88booop 88'8o    888_dPY8    '88d   88'8o        
   88b     88PPY8.  8888' 88   '888    88PPY8.      
   88P     8b   \`Y' Y8P   Y8 '88p      8b   \`Y' 
-  
-  Ver 1.0.3
     `;
     console.log(banner);
 const songs = [
@@ -39,6 +37,22 @@ const songs = [
     {
         name: "Nevada ~ Sematary",
         file: "audios/fantas/nevada.mp3"
+    },
+    {
+        name: "Carried Away ~ $uicideboy$",
+        file: "audios/fantas/carriedaway.mp3"
+    },
+    {
+        name: "AM / PM ~ $uicideboy$",
+        file: "audios/fantas/Am_Pm 4.mp3"
+    },
+    {
+        name: "Arson ~ Sematary, Ghost Mountain",
+        file: "audios/fantas/arson.mp3"
+    },
+    {
+        name: "Blood Angel ~ Sematary",
+        file: "audios/fantas/bloodangel.mp3"
     }
 ];
 
