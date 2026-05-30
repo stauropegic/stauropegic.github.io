@@ -2,7 +2,9 @@ const banner = `
   o8boooo ,8b.     888        <3
   88booop 88'8o    888          
   88b     88PPY8.  888          
-  88P     8b   \`Y' 888PPPPP     
+  88P     8b   \`Y' 888PPPPP    
+  
+  This guy is like 100% a furry femboy -fanta
     `;
     console.log(banner);
 const songs = [

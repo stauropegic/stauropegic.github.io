@@ -3,6 +3,8 @@ const banner = `
   88booop 88'8o    888_dPY8    '88d   88'8o        
   88b     88PPY8.  8888' 88   '888    88PPY8.      
   88P     8b   \`Y' Y8P   Y8 '88p      8b   \`Y' 
+
+  Oh man idk who this guy is but he is really cool -fanta
     `;
     console.log(banner);
 const songs = [
