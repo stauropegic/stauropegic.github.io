@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#131313">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>fantas bio site .ᐟ</title>
+    <link rel="icon" href="images/fanta.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fanta.css">
+</head>
+<body>
+<a href="secret.html" class="invisible-link">
+        shhh.
+</a>
+<div class="music-player">
+    <p id="track">♪ idle: nothing playing</p>
+
+    <div class="controls">
+        <button id="prevBtn">←</button>
+        <button id="playBtn">▶</button>
+        <button id="pauseBtn">||</button>
+        <button id="nextBtn">→</button>
+    </div>
+
+    <div class="volume-container">
+        <span>VOLUME</span>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5">
+    </div>
+
+    <audio id="audio"></audio>
+</div>
+    <div class="profile-pic" id="pfpButton">
+        <img src="images/fanta.jfif" alt="pfp">
+    </div>
+    <div class="bio" id="contentBox">
+
+    <div id="aboutPage">
+        <h1>@fanta</h1>
+
+        <h3>About Me</h3>
+
+        <p>Welcome to my bio site, I made this so people online can find out some info about me and stuff.ᐟ</p>
+
+        <p>Im Currently studying Cyber Security to one day be a Cybersecurity Engineer and im really interested in coding.ᐟ</p>
+
+        <p>Some coding languages i know or im learning are Python, Golang, C-Sharp, C-PlusPlus and Javascript.ᐟ</p>
+
+        <a href="https://discord.com/users/1380188448702332931" target="_blank" rel="noopener noreferrer">Discord ; @stauropegic</a>
+        <p></p>
+        <a href="https://www.tiktok.com/@stauropegic" target="_blank" rel="noopener noreferrer">Tiktok ; @stauropegic</a>
+        <p></p>
+        <a href="https://github.com/stauropegic" target="_blank" rel="noopener noreferrer">Github ; @stauropegic</a>
+        <h5>Click pfp to view other bios!</h3>
+    </div>
+
+    <div id="friendsPage" style="display:none;">
+
+        <h3>Other Bios!</h3>
+        <p></p>
+        <a href="fal.html" target="_blank" rel="noopener noreferrer">Fallatical ; click here!</a>
+        <p></p>
+        <a href="lazypanther.html" target="_blank" rel="noopener noreferrer">Lazypanther ; click here!</a>
+        
+
+        <h5>click pfp again to go back</h3>
+
+    </div>
+
+</div>
+<script src="js/fanta.js"></script>
+</body>
+</html>
