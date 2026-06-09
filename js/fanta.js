@@ -4,7 +4,7 @@ const banner = `
   88b     88PPY8.  8888' 88   '888    88PPY8.      
   88P     8b   \`Y' Y8P   Y8 '88p      8b   \`Y' 
 
-  Oh man idk who this guy is but he is really cool -fanta
+  Version ; V1.4
     `;
     console.log(banner);
 const songs = [
@@ -58,7 +58,7 @@ const songs = [
     }
 ];
 
-let currentSong = 0;
+let currentSong = Math.floor(Math.random() * songs.length);
 
 const audio = document.getElementById("audio");
 const playBtn = document.getElementById("playBtn");
@@ -140,27 +140,4 @@ audio.volume = 0.5;
 audio.onended = () => {
     console.log(`(onSongEnd) now playing ${songs[currentSong].name}`)
     nextBtn.click();
-};
-const pfpButton = document.getElementById("pfpButton");
-const skid = document.getElementById("skids")
-const aboutPage = document.getElementById("aboutPage");
-const friendsPage = document.getElementById("friendsPage");
-
-let showingFriends = false;
-
-pfpButton.onclick = () => {
-
-    showingFriends = !showingFriends;
-
-    if (showingFriends) {
-
-        aboutPage.style.display = "none";
-        friendsPage.style.display = "block";
-
-    } else {
-
-        aboutPage.style.display = "block";
-        friendsPage.style.display = "none";
-
-    }
 };
