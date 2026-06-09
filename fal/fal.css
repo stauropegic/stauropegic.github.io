@@ -90,6 +90,8 @@ a:hover {
 .volume-container input {
     width: 100%;
     cursor: pointer;
+    accent-color: #ffffff;
+    filter: grayscale(1);
 }
 .profile-pic {
     cursor: pointer;
